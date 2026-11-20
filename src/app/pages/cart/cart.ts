@@ -4,7 +4,6 @@ import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   imports: [TranslatePipe],
-  standalone: true,
   selector: 'app-cart',
   styleUrl: './cart.scss',
   templateUrl: './cart.html',

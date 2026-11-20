@@ -4,7 +4,6 @@ import { I18nInitService } from '../../services/i18n-init';
 
 @Component({
   imports: [TranslatePipe],
-  standalone: true,
   selector: 'app-catalogue',
   styleUrl: './catalogue.scss',
   templateUrl: './catalogue.html',
